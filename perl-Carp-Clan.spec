@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Carp
-%define	pnam	Clan
+%define		pdir	Carp
+%define		pnam	Clan
 Summary:	Carp::Clan - report errors from perspective of caller of a "clan" of modules
 Summary(pl):	Carp::Clan - zg³aszanie b³êdów z perspektywy wywo³uj±cego "klan" modu³ów
 Name:		perl-%{pdir}-%{pnam}
