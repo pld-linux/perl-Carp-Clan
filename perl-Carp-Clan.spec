@@ -15,11 +15,11 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d0a0431921b2c786aac234dfb6fe02ca
-# Source0-size:	16789
 URL:		http://search.cpan.org/dist/Carp-Clan/
 BuildRequires:	perl-devel >= 1:5.8.0
 %{?with_tests:BuildRequires:	perl-Test-Simple >= 0.40}
 BuildRequires:	rpm-perlprov >= 4.1-13
+Conflicts:	perl-Bit-Vector < 6.4
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -52,6 +52,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-#%doc Changes README
+%doc CHANGES.txt README.txt
 %{perl_vendorlib}/Carp/*
 %{_mandir}/man3/*
