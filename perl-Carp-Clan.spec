@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Carp
 %define	pnam	Clan
-Summary:	Carp::Clan
-Summary(pl):	Carp::Clan
+Summary:	Carp::Clan - report errors from perspective of caller of a "clan" of modules
+Summary(pl):	Carp::Clan - zg³aszanie b³êdów z perspektywy wywo³uj±cego "klan" modu³ów
 Name:		perl-%{pdir}-%{pnam}
 Version:	5.3
 Release:	1
