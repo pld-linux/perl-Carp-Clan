@@ -9,7 +9,7 @@ Summary:	Carp::Clan - report errors from perspective of caller of a "clan" of mo
 Summary(pl):	Carp::Clan - zg³aszanie b³êdów z perspektywy wywo³uj±cego "klan" modu³ów
 Name:		perl-%{pdir}-%{pnam}
 Version:	5.3
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
