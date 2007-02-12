@@ -6,7 +6,7 @@
 %define		pdir	Carp
 %define		pnam	Clan
 Summary:	Carp::Clan - report errors from perspective of caller of a "clan" of modules
-Summary(pl):	Carp::Clan - zg≥aszanie b≥ÍdÛw z perspektywy wywo≥uj±cego "klan" modu≥Ûw
+Summary(pl.UTF-8):   Carp::Clan - zg≈Çaszanie b≈Çƒôd√≥w z perspektywy wywo≈ÇujƒÖcego "klan" modu≈Ç√≥w
 Name:		perl-%{pdir}-%{pnam}
 Version:	5.3
 Release:	3
@@ -27,8 +27,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module reports errors from the perspective of the caller of a
 "clan" of modules, similar to "Carp.pm" itself.
 
-%description -l pl
-Modu≥ zg≥asza b≥Ídy z perspektywy wykonywuj±cego modu≥, podobnie jak
+%description -l pl.UTF-8
+Modu≈Ç zg≈Çasza b≈Çƒôdy z perspektywy wykonywujƒÖcego modu≈Ç, podobnie jak
 Carp.pm.
 
 %prep
