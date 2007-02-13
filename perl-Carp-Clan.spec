@@ -6,7 +6,7 @@
 %define		pdir	Carp
 %define		pnam	Clan
 Summary:	Carp::Clan - report errors from perspective of caller of a "clan" of modules
-Summary(pl.UTF-8):   Carp::Clan - zgłaszanie błędów z perspektywy wywołującego "klan" modułów
+Summary(pl.UTF-8):	Carp::Clan - zgłaszanie błędów z perspektywy wywołującego "klan" modułów
 Name:		perl-%{pdir}-%{pnam}
 Version:	5.3
 Release:	3
