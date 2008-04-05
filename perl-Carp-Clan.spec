@@ -7,13 +7,13 @@
 %define		pnam	Clan
 Summary:	Carp::Clan - report errors from perspective of caller of a "clan" of modules
 Summary(pl.UTF-8):	Carp::Clan - zgłaszanie błędów z perspektywy wywołującego "klan" modułów
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-Carp-Clan
 Version:	6.00
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Carp/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	3a1ea3da42ee62e4db20a8fbf80a74bf
 URL:		http://search.cpan.org/dist/Carp-Clan/
 BuildRequires:	perl-devel >= 1:5.8.0
