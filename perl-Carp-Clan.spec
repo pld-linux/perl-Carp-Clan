@@ -8,13 +8,13 @@
 Summary:	Carp::Clan - report errors from perspective of caller of a "clan" of modules
 Summary(pl.UTF-8):	Carp::Clan - zgłaszanie błędów z perspektywy wywołującego "klan" modułów
 Name:		perl-Carp-Clan
-Version:	6.00
+Version:	6.04
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Carp/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	3a1ea3da42ee62e4db20a8fbf80a74bf
+# Source0-md5:	b6316bc51bb530d994f2784615939fb2
 URL:		http://search.cpan.org/dist/Carp-Clan/
 BuildRequires:	perl-devel >= 1:5.8.0
 %{?with_tests:BuildRequires:	perl-Test-Simple >= 0.40}
