@@ -47,11 +47,13 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
+%{__rm} $RPM_BUILD_ROOT%{perl_vendorlib}/Carp/Clan.pod
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
 %doc README
-%{perl_vendorlib}/Carp/*.pm
-%{_mandir}/man3/*
+%{perl_vendorlib}/Carp/Clan.pm
+%{_mandir}/man3/Carp::Clan.3pm*
