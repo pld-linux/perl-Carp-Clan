@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Carp
 %define		pnam	Clan
 Summary:	Carp::Clan - report errors from perspective of caller of a "clan" of modules
