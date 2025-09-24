@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	Carp
 %define		pnam	Clan
@@ -12,12 +12,13 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Carp/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	https://www.cpan.org/modules/by-module/Carp/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	34fe04102374516ef7a105375b95ffde
-URL:		http://search.cpan.org/dist/Carp-Clan/
+URL:		https://metacpan.org/dist/Carp-Clan
 BuildRequires:	perl-devel >= 1:5.8.0
 %{?with_tests:BuildRequires:	perl-Test-Simple >= 0.40}
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 Conflicts:	perl-Bit-Vector < 6.4
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
